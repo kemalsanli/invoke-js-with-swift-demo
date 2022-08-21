@@ -65,7 +65,7 @@ class PushViewController: UIViewController {
         }
         
         imageView.snp.makeConstraints { make in
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.bottom.equalToSuperview() //equalTo(view.safeAreaLayoutGuide.snp.bottom) tbh looks better without this
             make.left.right.equalToSuperview()
             make.top.equalTo(topBar.snp.bottom)
         }

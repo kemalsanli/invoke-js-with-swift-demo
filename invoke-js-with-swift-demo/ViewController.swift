@@ -199,5 +199,4 @@ private enum Constants {
     static let errorTitle: String = "Something went wrong"
     static let alertMessage: String = "You did something wrong."
     static let textFieldPlaceholder: String = "Enter Username"
-    static let somethingWentWrong: String = "Looks like something went wrong."
 }

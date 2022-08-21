@@ -98,4 +98,5 @@ private enum Constants {
     static let profileUrlKemal: String = Constants.githubUrl + "kemalsanli"
     static let profileUrlEge: String = Constants.githubUrl + "egementrk"
     static let messageHandlerName: String = "someNameThatIsNotImportant"
+    static let somethingWentWrong: String = "Looks like something went wrong."
 }
